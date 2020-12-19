@@ -14,7 +14,7 @@ cd $HOME/tmux_tmp
 # download source files for tmux, libevent, and ncurses
 wget -O tmux-${TMUX_VERSION}.tar.gz https://github.com/tmux/tmux/releases/download/2.9/tmux-${TMUX_VERSION}.tar.gz
 wget https://github.com/downloads/libevent/libevent/libevent-2.0.19-stable.tar.gz
-wget https://invisible-mirror.net/archives/ncurses/ncurses-6.1.tar.gz
+wget https://mirrors.tuna.tsinghua.edu.cn/gnu/ncurses/ncurses-6.1.tar.gz
 
 # extract files, configure, and compile
 
